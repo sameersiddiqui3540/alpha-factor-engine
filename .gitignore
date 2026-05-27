@@ -1,0 +1,28 @@
+# Data — never commit raw or processed data files
+data/raw/
+data/processed/
+*.parquet
+*.feather
+*.h5
+
+# Environment
+.venv/
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Models — large binary files
+*.pkl
+*.joblib
+models/
+
+# OS
+.DS_Store
+Thumbs.db
+
+#others
+*.png
+*.jpg
+*.jpeg
+*.log
