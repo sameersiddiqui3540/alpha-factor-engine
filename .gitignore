@@ -22,7 +22,8 @@ models/
 Thumbs.db
 
 #others
-*.png
+# *.png
 *.jpg
 *.jpeg
 *.log
+jane street.ipynb
